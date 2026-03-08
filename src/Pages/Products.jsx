@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 // 1. استدعينا مكون الكرت
-import ProductCard from "../components/ProductCard"; 
+import ProductCard from "../Components/ProductCard"; 
 
 const Products = () => {
   const [products, setProducts] = useState([]);
